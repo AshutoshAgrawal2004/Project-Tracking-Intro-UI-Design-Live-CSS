@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <div class="splash"></div>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" width="30" height="30" alt="" />
+      </a>
+      <button class="navbar-toggler" id="toggle-navbar" type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse nav-items-list" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Product </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Pricing</a>
+          </li>
+
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+            <a class="nav-link disabled " href="#" tabindex="-1" aria-disabled="true">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row d-flex">
+      <div class="col-lg-6 main">
+        <div class="dash">
+          <span class="badge badge-dark badge-pill text-uppercase mr-2 py-2 px-3">New</span>
+          <h6 class="dash-head text-uppercase">
+            Monograph Dashboard
+          </h6>
+        </div>
+        <h1 class="main-head text-uppercase my-4">
+          Powerful insights into your team
+        </h1>
+        <p class="desc">
+          Project planning and time tracking for agile teams
+        </p>
+        <div>
+          <button class="btn cta text-uppercase  mr-2 px-2">
+            Schedule a demo
+          </button>
+          <h6 class="dash-head inline text-uppercase">
+            to see a preview
+          </h6>
+        </div>
+      </div>
+      <div class="col-lg-6 image">
+        <div class="img-container">
+          <img src="images/illustration-devices.svg" alt="devices" class="devices mb-4 " />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="https://www.sololearn.com/Profile/10779261">Ashutosh Agrawal</a>.
+      </p>
+    </footer>
+  </div>
+  <style></style>
+  <script src="script.js"></script>
+</body>
+
+</html>
